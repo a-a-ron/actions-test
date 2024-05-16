@@ -17,7 +17,9 @@ export default function Home() {
       <main className={`${styles.main} ${inter.className}`}>
 
        <h1>Congratulations!</h1>
-  <p>You've completed the essentials of automated application deployment with GitHub Actions! 🥳</p>
+
+  const gifUrl = 'https://octodex.github.com/nuxtocat/';
+  <p>Congrats, you've successfully set up an automated workflow with GitHub Actions to deploy your Next.js application to GitHub Pages! 🥳</p>
 
       </main>
     </>
